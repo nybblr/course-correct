@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 let classFor = (handRaise) => {
   let { count } = handRaise;
@@ -17,13 +18,13 @@ export default ({ handRaises }) =>
           <span className="col-xs-6 page-number">{handRaise.section}</span>
           <span className={`col-xs count ${classFor(handRaise)}`}>{count} Hands Raised</span>
           <nav className="controls">
-            <a href="#" className="control">
+            <Link to={`/note/${hr}`} className="control">
               { handRaise.note ?
                 <img src="icons/edit-note.svg" />
               :
                 <img src="icons/add-note.svg" />
               }
-            </a>
+            </Link>
           </nav>
         </li>
       )

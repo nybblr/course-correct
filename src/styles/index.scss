@@ -10,16 +10,19 @@ $blue: #80BCFF;
 $gray: #66676D;
 
 @mixin t-h1 {
+  font-family: 'Quicksand';
   font-size: 60px;
   font-weight: bold;
 }
 
 @mixin t-h2 {
+  font-family: 'Quicksand';
   font-size: 36px;
   font-weight: 500;
 }
 
 @mixin t-body {
+  font-family: 'Quicksand';
   font-size: 24px;
   font-weight: 500;
 }
@@ -49,7 +52,6 @@ html {
 
 body {
   @include t-body;
-  font-family: 'Quicksand';
   color: white;
 }
 
@@ -173,4 +175,18 @@ a {
 
 .delayed {
   @include delay($interval: 80ms);
+}
+
+.input {
+  @include t-body;
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  resize: none;
+  padding: 24px;
+
+  &:focus {
+    outline: none;
+  }
 }
