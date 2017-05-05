@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>desktop-icons/ic-added-note</title>
+    <title>desktop-icons/ic-add-note</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Teacher-Tool-(Desktop-Web)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-986.000000, -237.000000)">
-            <g id="desktop-icons/ic-added-note" transform="translate(986.000000, 237.000000)">
-                <rect id="Rectangle-4" fill="#80BCFF" x="0" y="0" width="36" height="36" rx="6"></rect>
-                <g id="Group-2" transform="translate(6.000000, 6.000000)" fill="#24262A">
-                    <path d="M19.2322631,4.04583751 C20.4313628,2.8467378 22.3773436,2.84859378 23.5732863,4.04453651 L23.5732863,4.04453651 C24.7716675,5.24291769 24.7708401,7.18670484 23.5719853,8.38555969 L9.00421899,22.953326 L4.04453651,23.5732863 L4.66449682,18.6136038" id="Rectangle-5"></path>
+        <g id="Desktop-HD" transform="translate(-986.000000, -299.000000)">
+            <g id="desktop-icons/ic-add-note" transform="translate(986.000000, 299.000000)">
+                <rect id="Rectangle-4" fill="#80FF9A" x="0" y="0" width="36" height="36" rx="6"></rect>
+                <g id="Group-2" transform="translate(5.000000, 6.000000)" fill="#24262A">
+                    <path d="M20.2322631,4.04583751 C21.4313628,2.8467378 23.3773436,2.84859378 24.5732863,4.04453651 L24.5732863,4.04453651 C25.7716675,5.24291769 25.7708401,7.18670484 24.5719853,8.38555969 L10.004219,22.953326 L5.04453651,23.5732863 L5.66449682,18.6136038" id="Rectangle-5"></path>
                     <g id="Group">
-                        <rect id="Rectangle" x="4" y="0" width="3" height="11" rx="1.5"></rect>
-                        <path d="M1.5760318,7 C0.705613473,7 0,6.33420277 0,5.5 L0,5.5 C0,4.67157288 0.704832956,4 1.5760318,4 L9.4239682,4 C10.2943865,4 11,4.66579723 11,5.5 L11,5.5 C11,6.32842712 10.295167,7 9.4239682,7" id="Rectangle"></path>
+                        <g id="Group-4">
+                            <rect id="Rectangle" transform="translate(3.780330, 6.780330) rotate(-45.000000) translate(-3.780330, -6.780330) " x="2.28033009" y="2.93413601" width="3" height="7.69238816" rx="1.5"></rect>
+                            <path d="M4.5760318,7 C3.70561347,7 3,6.33420277 3,5.5 L3,5.5 C3,4.67157288 3.70483296,4 4.5760318,4 L12.4239682,4 C13.2943865,4 14,4.66579723 14,5.5 L14,5.5 C14,6.32842712 13.295167,7 12.4239682,7" id="Rectangle" transform="translate(8.500000, 5.500000) rotate(135.000000) translate(-8.500000, -5.500000) "></path>
+                        </g>
                     </g>
                 </g>
             </g>

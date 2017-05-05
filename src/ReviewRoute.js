@@ -20,7 +20,7 @@ export default class ReviewRoute extends Component {
       state: 'users'
     });
 
-    this.ref = db.syncState(`/handRaises`, {
+    this.ref = db.syncState(`/handRaisesBySection`, {
       context: this,
       state: 'handRaises'
     });
@@ -49,7 +49,7 @@ export default class ReviewRoute extends Component {
           </section>
           <section className="column hand-raises col-xs">
             <h2>Question Map</h2>
-            <HandRaiseList />
+            <HandRaiseList handRaises={handRaises} />
           </section>
         </div>
         <div className="row space-top">
