@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import { CSVLink } from 'react-csv';
 
 import db from './database';
 
@@ -38,6 +39,11 @@ export default class ReviewRoute extends Component {
 
   render() {
     let { users, handRaises } = this.state;
+    let headers = ['Section', '# Hand Raises', 'Notes'];
+    let notes = Object.keys(handRaises).map(hr => {
+      hr = handRaises[hr];
+      return [hr.section, hr.count, hr.note];
+    });
     return (
       <article className="page review">
         <img src="logo.svg" className="logo" />
@@ -57,6 +63,13 @@ export default class ReviewRoute extends Component {
             <Link to={`/users/new`} className="button col-xs-12">Add Student</Link>
           </section>
           <section className="column controls col-xs">
+            <CSVLink data={notes}
+              headers={headers}
+              filename={"hand-raises.csv"}
+              className="button col-xs-12"
+              target="_blank">
+                Download Notes as CSV
+            </CSVLink>
           </section>
         </div>
       </article>
