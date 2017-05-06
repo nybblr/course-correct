@@ -9,6 +9,7 @@ import {
 import App from './App';
 import ReviewRoute from './ReviewRoute';
 import AddNoteRoute from './AddNoteRoute';
+import AddStudentRoute from './AddStudentRoute';
 
 let NoMatch = () => <h1>404</h1>
 
@@ -18,6 +19,7 @@ export default () =>
       <IndexRoute component={ReviewRoute} />
       <Route path="review" component={ReviewRoute} />
       <Route path="note/:id" component={AddNoteRoute} />
+      <Route path="users/new" component={AddStudentRoute} />
       <Route path="*" component={NoMatch} />
     </Route>
   </Router>

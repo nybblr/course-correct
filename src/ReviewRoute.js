@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 import db from './database';
 
@@ -55,7 +56,7 @@ export default class ReviewRoute extends Component {
         </div>
         <div className="row space-top">
           <section className="column controls col-xs-4">
-            <a className="button col-xs-12" href="#">Add Student</a>
+            <Link to={`/users/new`} className="button col-xs-12">Add Student</Link>
           </section>
           <section className="column controls col-xs">
           </section>

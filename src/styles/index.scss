@@ -160,6 +160,7 @@ a {
 
 .button {
   @include t-body;
+  display: block;
   font-weight: 700;
   text-align: center;
   height: 60px;
@@ -167,6 +168,11 @@ a {
   background-color: $blue;
   color: $background;
   border-radius: 8px;
+
+  &.secondary {
+    color: $background;
+    background-color: $gray;
+  }
 }
 
 .row.space-top {
@@ -189,4 +195,24 @@ a {
   &:focus {
     outline: none;
   }
+}
+
+textarea.input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 144px;
+}
+
+input.input {
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+label {
+  @include t-body;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 16px;
 }
