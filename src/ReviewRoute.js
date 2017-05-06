@@ -15,8 +15,6 @@ export default class ReviewRoute extends Component {
     };
   }
   init(){
-    window.setState = this.setState.bind(this);
-
     this.ref = db.syncState(`/users`, {
       context: this,
       state: 'users'
