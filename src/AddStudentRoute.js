@@ -6,7 +6,6 @@ window.db = db
 export default class AddStudentRoute extends Component {
   constructor(props){
     super(props);
-    this.state = {};
     this.state = {
       name: '',
       email: '',
